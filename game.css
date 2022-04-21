@@ -1,0 +1,52 @@
+body
+{
+	background: lightblue;
+	text-align: center;
+	background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg?s=p_GNPP1ftp_HU1IEQX8VMe_-zLWFJeSQ1wox2bqgo7Q");
+    background-size: cover;
+	background-position: center;
+}
+
+	#div1 , #div2
+	{
+		background:linear-gradient(hotpink,lightpink,lightgreen,lightblue,lightyellow);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		margin: 15px;
+		border-width: 3px;
+		border-style: ridge;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+button{
+	border-radius: 20px;
+    border-width: 3px;
+    border-style: ridge;
+	background: linear-gradient(purple,lightblue);
+	color: white;
+	width: 100px;
+	height: 30px;
+}
